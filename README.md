@@ -245,7 +245,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). Physics and chemistry values must cite a
 
 ## License
 
-[MIT](LICENSE) © 2026 anveshix
+No licence has been chosen for this repository yet. Until one is added, the default applies: **all rights reserved** by the author (anveshix). Please ask before reusing or redistributing the code.
 
 ## Author
 

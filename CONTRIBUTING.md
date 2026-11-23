@@ -8,7 +8,7 @@ Thanks for your interest! Small, focused contributions are the easiest to review
 2. Install and run the checks:
 
    ```bash
-   npm start &  # then: npm run audit:models
+   npm run audit:models   # checks the physics and chemistry models
    ```
 
 3. Keep each pull request to one logical change, with a clear commit message

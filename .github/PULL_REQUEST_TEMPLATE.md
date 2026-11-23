@@ -4,7 +4,7 @@
 
 ## How I tested
 
-- [ ] `npm start &  # then: npm run audit:models` passes locally
+- [ ] `npm run audit:models   # checks the physics and chemistry models` passes locally
 - [ ] Manually checked the affected screen / command
 
 ## Checklist

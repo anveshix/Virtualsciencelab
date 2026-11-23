@@ -1,5 +1,7 @@
 # CBSE V-LAB 2026–27
 
+**[▶ Open the live lab](https://anveshix.github.io/Virtualsciencelab/)** · [Run it locally](#run-it) · [Curriculum authority](#curriculum-authority) · [Verify it](#verify-it)
+
 An offline-first virtual **science laboratory** for CBSE Classes XI & XII —
 Physics (042) and Chemistry (043).
 Students set up apparatus, change variables, take readings to the instrument's least count,
@@ -224,3 +226,27 @@ broken.
   fake-intelligent.
 - **Simulations are models.** Assumptions and valid ranges are printed in the Theory tab of
   every experiment.
+
+## Folder structure
+
+| Path | Contents |
+|---|---|
+| `index.html`, `sw.js`, `manifest.webmanifest` | App entry, offline service worker and PWA manifest |
+| `src/` | Experiment modules, physics and chemistry models, bench renderer and UI |
+| `data/` | Experiment and curriculum data |
+| `assets/` | Images and static resources |
+| `webgl-labs/` | Separate Vite project for the WebGL demonstrations |
+| `tools/` | Local server (`serve.mjs`), build-index and audit scripts |
+| `docs/` | Design notes and audit reports (`docs/screens/` is generated and git-ignored) |
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md). Physics and chemistry values must cite a source or be computed from the stated equation; run the `audit:*` scripts before opening a pull request. Report security issues privately as described in [SECURITY.md](SECURITY.md).
+
+## License
+
+[MIT](LICENSE) © 2026 anveshix
+
+## Author
+
+**anveshix** — [github.com/anveshix](https://github.com/anveshix)
